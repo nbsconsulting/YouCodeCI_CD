@@ -1,0 +1,21 @@
+{
+  "actionButtons": {
+    "reloadButton":"♻️",
+    "defaultColor": "white",
+    "useScripts": true,
+    "npmClient": "npm",
+    "monorepo": true,
+    "commands": [
+      {
+        "name": "Deploy To INTEG",
+        "color": "PINK",
+        "command": "sh LightningDeploy_INTEG.sh",
+        "singleInstance": true
+      }
+    ]
+  },
+  "workbench.colorCustomizations": {
+    "statusBar.background": null,
+    "activityBar.background": null
+  }
+}
